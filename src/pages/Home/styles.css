@@ -1,0 +1,23 @@
+.home-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .f8f0e9 */
+
+@media (max-width: 480px) {
+    .searchbar-home {
+        transform: scale(0.7)
+    }
+}
+
+@media (max-width: 340px) {
+    .searchbar-home {
+        transform: scale(0.5)
+    }
+}
